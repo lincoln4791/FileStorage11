@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+    // Mediastore APi. It will be used if we want to save picture in gallery
     private fun saveImageToStorage(
         bitmap: Bitmap,
         filename: String = "screenshot.jpg",
